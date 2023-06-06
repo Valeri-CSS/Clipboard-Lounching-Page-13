@@ -1,0 +1,231 @@
+@media screen and (min-width:1024px) {
+    body {
+        background-image: url(./images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    header>h1 {
+        font-size: 46px;
+    }
+
+    header>p {
+        width: 750px;
+        font-size: 20px;
+        margin: 16px 0px 48px;
+    }
+
+    .ios {
+        width: 227px;
+        margin: 0px 0px 0px auto;
+    }
+
+    .ios:hover {
+        cursor: pointer;
+        background: #26bba5a6;
+        transition: 0.4s;
+
+    }
+
+    .mac {
+        width: 227px;
+        margin: 0px auto 0px 0px;
+    }
+
+    .mac:hover {
+        cursor: pointer;
+        background: #6173ffb0;
+        transition: 0.4s;
+    }
+
+
+    .buttons {
+        flex-direction: row;
+        gap: 16px;
+        margin: 0 auto;
+    }
+
+    .keep {
+        font-size: 36px;
+    }
+
+    .clipboard {
+        font-size: 18px;
+        width: 721px;
+        margin: 0px 32px 120px;
+    }
+
+    .screen {
+        width: 54%;
+        margin: 0px 51% 0px 0%;
+    }
+
+    .text {
+        width: 29%;
+        margin: 28px 0px -418px 37%;
+    }
+
+    .text>p {
+        text-align: left;
+        margin: 0px 32px -38px;
+
+    }
+
+    .text>h1 {
+        margin: 14% 32px 2%;
+    }
+
+    .access {
+        margin: 191px 32px 16px;
+    }
+
+    .whether {
+        width: 610px;
+    }
+
+    .screens {
+        width: 64%;
+    }
+
+    .supercharge {
+        font-size: 36px;
+    }
+
+    .wegot {
+        font-size: 18px;
+    }
+
+    .wrap {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: start;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .icons>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list,
+    .texticon {
+        width: 422px;
+    }
+
+    .list>h1 {
+        margin: 40px 32px 18px;
+    }
+
+    .texticon>h1 {
+        margin: 40px 32px 18px;
+    }
+
+    .eye>h1 {
+        margin: 40px 32px 18px;
+    }
+
+    .eye>p {
+        margin: 0px 32px 60px;
+    }
+
+    .listicon>p {
+        margin: 0px 32px 60px;
+    }
+
+    .list>p {
+        margin: 0px 32px 60px;
+    }
+
+    .eye {
+        width: 422px;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        margin: 131px 98px 170px;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .ios2 {
+        margin: 0px;
+        width: 270px;
+        height: 65px;
+        border-radius: 50px;
+    }
+
+    .ios2:hover {
+        cursor: pointer;
+        background: #26bba5a6;
+        transition: 0.4s;
+
+    }
+
+    .mac2 {
+        width: 270px;
+        height: 65px;
+        border-radius: 50px;
+    }
+
+    .mac2:hover {
+        cursor: pointer;
+        background: #6173ffb0;
+        transition: 0.4s;
+    }
+
+    bottom>h1 {
+        font-size: 36px;
+    }
+
+    bottom>p {
+        font-size: 18px;
+        margin: 30px auto 49px;
+        width: 693px;
+    }
+
+
+    .gray {
+        flex-direction: row;
+        height: 150px;
+        justify-content: center;
+    }
+
+    .words {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 698px;
+        column-gap: 146px;
+        row-gap: 25px;
+        margin: 0px 59px 0px 0px;
+    }
+
+    .words>h1:hover {
+        cursor: pointer;
+        color: #26BBA4;
+        transition: 0.4s;
+
+    }
+
+    .C {
+        margin: 0 5%;
+    }
+
+    .socialmedia {
+        margin: 50px 2% 50px 0px;
+    }
+
+    .socialmedia>img:hover {
+        cursor: pointer;
+        filter: invert(57%) sepia(64%) saturate(463%) hue-rotate(121deg) brightness(94%) contrast(93%);
+        transition: 0.4s;
+    }
+
+}
